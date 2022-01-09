@@ -92,7 +92,7 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(24, 10, 209, 0.7);
 
     bottom: 30px;
     right: 150px;
@@ -130,3 +130,53 @@ hr {
     margin: 20px 0;
     font-size: 280%;
 }
+/* footer */
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #830051;
+}
+
+/* scroll left animation */
+.scroll-left {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    color: #830051;
+    border: 1px #830051;
+   }
+   .scroll-left p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    transform:translateX(100%);
+    /* Apply animation to this element */
+    animation: scroll-left 15s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @keyframes scroll-left {
+    0%   {
+    transform: translateX(100%); 		
+    }
+    100% {
+    transform: translateX(-100%); 
+    }
+   }
