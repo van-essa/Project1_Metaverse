@@ -48,11 +48,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #830051;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #830051;
 }
 
 /* hero image and cover text */
@@ -113,7 +113,7 @@ h1, h2 {
     margin: 0 auto;
 }
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #830051;
     width: 100%;
     margin: 5px 0;
 }
