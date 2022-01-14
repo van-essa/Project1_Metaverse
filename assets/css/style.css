@@ -37,7 +37,7 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
+    float:right;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -173,6 +173,7 @@ footer {
     background: #fff;
     color: #830051;
     border: 1px #830051;
+    font-size: large;
    }
    .scroll-left p {
     position: absolute;
@@ -184,7 +185,7 @@ footer {
     /* Starting position */
     transform:translateX(100%);
     /* Apply animation to this element */
-    animation: scroll-left 15s linear infinite;
+    animation: scroll-left 25s linear infinite;
    }
    /* Move it (define the animation) */
    @keyframes scroll-left {
