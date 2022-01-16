@@ -147,7 +147,7 @@ hr {
 }
 /* list of Metaverse */
 body {
-	background: #142C52;
+	background: #010c1f;
 }
 .tilesWrap {
 	padding: 0;
@@ -166,7 +166,7 @@ body {
 	margin: 10px;
 	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: #142C52;
+	background: #010c1f;
 	border: 1px solid #252727;
 	text-align: left;
 }
@@ -303,9 +303,9 @@ footer {
     height: 50px;	
     overflow: hidden;
     position: relative;
-    background: #fff;
-    color: #830051;
-    border: 1px #830051;
+    background: #830051;
+    color: #010c1f;
+    border: 1px #010c1f;
     font-size: large;
    }
    .scroll-left p {
