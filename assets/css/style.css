@@ -61,7 +61,6 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -94,18 +93,13 @@ h1, h2 {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 200px;
-
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(24, 10, 209, 0.7);
-
     bottom: 30px;
     right: 150px;
-
     position: absolute;
 }
 
@@ -314,7 +308,7 @@ footer {
         }
             
     .signup-form {
-        margin: 150px 10% 0 0;
+        margin: 200px 30% 0;
         color: #fff;
         background-color: #010c1f;
         max-width: 400px;
@@ -358,7 +352,7 @@ footer {
          color: #830051;
      }
 
-     * Media queries */
+     /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
