@@ -265,7 +265,6 @@ background: linear-gradient(to right, #FFAFBD, #C9FFBF);
         color: #fff;
         background-color: #010c1f;
         max-width: 400px;
-        position: absolute;
         left: 10%;
         padding: 30px;
     }
