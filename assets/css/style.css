@@ -33,6 +33,8 @@ h2 {
     letter-spacing: 4px;
     position: fixed;
     /* Set the navbar to fixed position */
+    z-index: 9999;
+    /* Position the navbar it the top of the content */
     top: 0;
     /* Position the navbar at the top of the page */
     width: 100%;
@@ -57,6 +59,18 @@ h2 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+/* Allign nav and logo  */
+.container {
+    Display: flex;
+    align-items: center;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Change background on mouse-over */
@@ -122,7 +136,7 @@ h2 {
 
 /* metaverse lovers */
 #metaverse-lovers {
-    height: 250px;
+    height: 350px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -292,6 +306,7 @@ body {
     max-width: 400px;
     left: 10%;
     padding: 30px;
+    font-size: 100%;
 }
 
 .signup-form>h2 {
@@ -337,6 +352,7 @@ body {
     height: 600px;
     width: 100%;
     background: url('../images/thankyou.jpg') no-repeat center center;
+}
 
 /* footer */
 footer {
@@ -399,9 +415,9 @@ footer {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    #club-ethos {
+    #metaverse-lovers {
         width: 65%;
-        height: 1200px;
+        height: 500px;
         margin: 0 auto;
     }
 
@@ -409,24 +425,10 @@ footer {
         padding: 30px 0;
     }
 
-    #left-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
     #center-about {
         clear: both;
         width: 100%;
         float: left;
-        padding: 0;
-    }
-
-    #times>div {
-        width: 100%;
-        clear: both;
-        height: 150px;
         padding: 0;
     }
 
@@ -437,38 +439,94 @@ footer {
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+    
+    #logo {
+        float: center;
+    font-size: 70%;
+    clear: center;
+    }
+    .container {
+        text-align: center;
+    }
+
+    .container-nav {
+        flex-direction: column;
+    }
+
     #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
+        font-size: 90%;
+        clear: center;
+        float: center;
+        margin-bottom: auto;
         line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #metaverse-lovers {
+        width: 90%;
+        height: 800px;
+        margin: 0 auto;
     }
 }
 
-#cover-text {
-    left: 0;
-}
+/* For small screen sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #logo {
+        float: center;
+    font-size: 70%;
+    clear: center;
+    }
+    #menu {
+        font-size: 90%;
+        clear: center;
+        float: center;
+        margin-bottom: auto;
+        line-height: 25px;
+    }
+    .signup-form {
+        margin: 150px 10% 0 0;
+        color: #fff;
+        background-color: #010c1f;
+        max-width: 400px;
+        left: 10%;
+        padding: 30px;
+    }
 
-#club-ethos {
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-}
+    .signup-form>h2 {
+        color: #fafafa;
+        margin-bottom: 20px;
+    }
 
-.left-about-heading,
-.right-about-heading {
-    width: inherit;
-}
+    .text-input {
+        background: transparent;
+        color: #fafafa;
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #fafafa;
+        border-radius: 2px;
+    }
 
-.left-about-heading h2,
-.right-about-heading h2 {
-    width: 100%;
-    text-align: center;
-}
+    .text-input:hover {
+        border-color: #830051;
+    }
 
-.left-about-heading p,
-.right-about-heading p {
-    text-align: center;
-    padding: 0 20px;
+    .submit-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #830051;
+        color: #fafafa;
+        display: block;
+    }
+
+    .submit-button:hover {
+        background-color: #fafafa;
+        color: #830051;
+    }
 }
