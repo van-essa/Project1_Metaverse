@@ -1,153 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Lato:ital,wght@1,300&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+margin: 0;
+padding: 0;
+border: none;
 }
-
 body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #830051;
+font-family: Lato, sans-serif;
+font-weight: 300;
+color: #830051;
 }
 
 /* headings and logo */
 
 h1, h2 {
-    font-family: Lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #830051;
+font-family: Lato, sans-serif;
+text-transform: uppercase;
+letter-spacing: 4px;
+color: #830051;
 }
-
 #logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+float: left;
+font-size: 280%;
+margin-left: 30px;
 }
-/* navigation links */
 
+/* navigation links */
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+font-size: 110%;
+letter-spacing: 4px;
 }
 
 #menu, #logo {
-    line-height: 75px;
+line-height: 75px;
 }
-
 #menu li {
-    float:right;
-    list-style-type: none;
-    margin-right: 30px;
+float:right;
+list-style-type: none;
+margin-right: 30px;
 }
-
 #menu a {
-    text-decoration: none;
-    color: inherit;
+text-decoration: none;
+color: inherit;
 }
-
 #menu a:hover {
-    border-bottom: 1px solid #830051;
+border-bottom: 1px solid #830051;
 }
-
 .active {
-    border-bottom: 1px solid #830051;
+border-bottom: 1px solid #830051;
 }
 
 /* hero image and cover text */
-
 #hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+height: 600px;
+width: 100%;
+overflow: hidden;
+position: relative;
 }
-
 #cover-text, #cover-text h2 {
-    color: #fff;
+color: #fff;
 }
-
 #hero-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/Metaverse_Woman.jpg') no-repeat center center;
+height: 600px;
+width: 100%;
+background: url('../images/Metaverse_Woman.jpg') no-repeat center center;
 
-    /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+/* animates zoom effect on loading page */
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
 }
+
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+from{
+transform: scale(1);
 }
-
+to{
+transform: scale(1.1);
+}
+}
 #cover-text {
-    font-size: 130%;
-    font-family: Lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(24, 10, 209, 0.7);
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
+font-size: 130%;
+font-family: Lato, sans-serif;
+text-transform: uppercase;
+letter-spacing: 4px;
+width: 300px;
+height: 200px;
+padding-top: 40px;
+padding-left: 10px;
+background-color: rgba(24, 10, 209, 0.7);
+bottom: 30px;
+right: 150px;
+position: absolute;
 }
 
 /* metaverse lovers */
-
 #metaverse-lovers {
-    height: 250px;
-    margin-left: auto;
-    margin-right: auto;
+height: 250px;
+margin-left: auto;
+margin-right: auto;
 }
 
 #center-about {
-    padding-top: 30px;
-    width: 100%;
-    text-align: center;
-    margin: 20px 0;
+padding-top: 30px;
+width: 100%;
+text-align: center;
+margin: 20px 0;
 }
 hr {
-    border-top: 1px solid #830051;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+border-top: 1px solid #830051;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
 }
-
 .center-about-heading {
-    width: 60%;
-    line-height: 20px;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
+width: 60%;
+line-height: 20px;
+clear: both;
+margin-left: auto;
+margin-right: auto;
 }
-
 .center-about-heading p {
-    font-size: 120%;
-    font-family: Lato, sans-serif;
-    letter-spacing: 4px;
-    width: 100%;
-    line-height: 30px;
-    clear: both;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+font-size: 120%;
+font-family: Lato, sans-serif;
+letter-spacing: 4px;
+width: 100%;
+line-height: 30px;
+clear: both;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
 }
-
 #welcome {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
+text-align: center;
+margin: 20px 0;
+font-size: 280%;
 }
 
 /* list of Metaverse */
@@ -155,277 +142,252 @@ body {
 	background: #010c1f;
 }
 .tilesWrap {
-	padding: 0;
-	margin: 50px auto;
-	list-style: none;
-	text-align: center;
+padding: 0;
+margin: 50px auto;
+list-style: none;
+text-align: center;
 }
 .tilesWrap li {
-	display: inline-block;
-	width: 20%;
-	min-width: 200px;
-	max-width: 230px;
-	padding: 80px 20px 40px;
-	position: relative;
-	vertical-align: top;
-	margin: 10px;
-	font-family: Lato, sans-serif;
-	min-height: 25vh;
-	background: #010c1f;
-	border: 1px solid #252727;
-	text-align: left;
+display: inline-block;
+width: 20%;
+min-width: 200px;
+max-width: 230px;
+padding: 80px 20px 40px;
+position: relative;
+vertical-align: top;
+margin: 10px;
+font-family: Lato, sans-serif;
+min-height: 25vh;
+background: #010c1f;
+border: 1px solid #252727;
+text-align: left;
 }
 .tilesWrap li h2 {
-	font-size: 114px;
-	margin: 0;
-	position: absolute;
-	opacity: 0.2;
-	top: 50px;
-	right: 10px;
-	transition: all 0.3s ease-in-out;
+font-size: 114px;
+margin: 0;
+position: absolute;
+opacity: 0.2;
+top: 50px;
+right: 10px;
+transition: all 0.3s ease-in-out;
 }
 .tilesWrap li h3 {
-	font-size: 20px;
-	color: #b7b7b7;
-	margin-bottom: 5px;
+font-size: 20px;
+color: #b7b7b7;
+margin-bottom: 5px;
 }
 .tilesWrap li p {
-	font-size: 20px;
-	line-height: 18px;
-	color: #b7b7b7;
-	margin-top: 5px;
+font-size: 20px;
+line-height: 18px;
+color: #b7b7b7;
+margin-top: 5px;
 }
-
 .tilesWrap li:hover h2 {
-	top: 0px;
-	opacity: 0.6;
+top: 0px;
+opacity: 0.6;
 }
-
 .tilesWrap li:before {
-	content: '';
-	position: absolute;
-	top: -2px;
-	left: -2px;
-	right: -2px;
-	bottom: -2px;
-	z-index: -1;
-	background: #fff;
-	transform: skew(2deg, 2deg);
+content: '';
+position: absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+z-index: -1;
+background: #fff;
+transform: skew(2deg, 2deg);
 }
 .tilesWrap li:after {
-	content: '';
-	position: absolute;
-	width: 40%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	background: rgba(255, 255, 255, 0.02);
+content: '';
+position: absolute;
+width: 40%;
+height: 100%;
+left: 0;
+top: 0;
+background: rgba(255, 255, 255, 0.02);
 }
-
 .tilesWrap li:nth-child(1):before {
-	background: #C9FFBF;
+background: #C9FFBF;
 background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
 background: linear-gradient(to right, #FFAFBD, #C9FFBF);
 }
-
 .tilesWrap li:nth-child(2):before {
-	background: #f2709c;
+background: #f2709c;
 background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
 background: linear-gradient(to right, #ff9472, #f2709c);
 }
-
 .tilesWrap li:nth-child(3):before {
-	background: #c21500;
+background: #c21500;
 background: -webkit-linear-gradient(to right, #ffc500, #c21500);
 background: linear-gradient(to right, #ffc500, #c21500);
 }
-
 .tilesWrap li:nth-child(4):before {
-	background: #FC354C;
+background: #FC354C;
 background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
 background: linear-gradient(to right, #0ABFBC, #FC354C);
 }
-
 .tilesWrap li:nth-child(5):before {
-	background: #C9FFBF;
+background: #C9FFBF;
 background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
 background: linear-gradient(to right, #FFAFBD, #C9FFBF);
 }
 
-    /* Sign Up Form */
+/* Sign Up Form */
+#form-section {
+display: block;
+margin-left: auto;
+margin-right: auto 
+}
+.signup-form {
+margin: 200px 30% 0;
+color: #fff;
+background-color: #010c1f;
+max-width: 400px;
+left: 10%;
+padding: 30px;
+}
+.signup-form > h2 {
+color: #fafafa;
+margin-bottom: 20px;
+}
+.text-input {
+background: transparent;
+color: #fafafa;
+width: 100%;
+height: 25px;
+margin: 5px 0 20px 0;
+border: 1px solid #fafafa;
+border-radius: 2px;
+}
+.text-input:hover {
+border-color: #830051;
+}
+.submit-button {
+margin-top: 20px;
+border-radius: 2px;
+padding: 15px 32px 15px 32px;
+text-align: center;
+font-size: 200%;
+background-color: #830051;
+color: #fafafa;
+display: block;
+}
+.submit-button:hover {
+background-color: #fafafa;
+color: #830051;
+}
 
-    #form-section {
-            display: block;
-            margin-left: auto;
-            margin-right: auto 
-        }
-            
-    .signup-form {
-        margin: 200px 30% 0;
-        color: #fff;
-        background-color: #010c1f;
-        max-width: 400px;
-        left: 10%;
-        padding: 30px;
-    }
-    
-     .signup-form > h2 {
-         color: #fafafa;
-         margin-bottom: 20px;
-     }
-     
-     .text-input {
-         background: transparent;
-         color: #fafafa;
-         width: 100%;
-         height: 25px;
-         margin: 5px 0 20px 0;
-         border: 1px solid #fafafa;
-         border-radius: 2px;
-     }
-     
-     .text-input:hover {
-         border-color: #830051;
-     }
-     
-     .submit-button {
-         margin-top: 20px;
-         border-radius: 2px;
-         padding: 15px 32px 15px 32px;
-         text-align: center;
-         font-size: 200%;
-         background-color: #830051;
-         color: #fafafa;
-         display: block;
-     }
-     
-     .submit-button:hover {
-         background-color: #fafafa;
-         color: #830051;
-     }
-
-     /* footer */
+/* footer */
 footer {
-    height: 150px;
+height: 150px;
 }
-
 .social-networks {
-    text-align: center;
+text-align: center;
 }
-
 .social-networks > li {
-    display: inline;
+display: inline;
 }
-
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #830051;
+font-size: 160%;
+margin: 1%;
+padding: 5%;
+color: #830051;
 }
 
 /* scroll left animation */
 .scroll-left {
-    height: 50px;	
-    overflow: hidden;
-    position: relative;
-    background: #830051;
-    color: #010c1f;
-    border: 1px #010c1f;
-    font-size: large;
-   }
-   .scroll-left p {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    line-height: 50px;
-    text-align: center;
-    /* Starting position */
-    transform:translateX(100%);
-    /* Apply animation to this element */
-    animation: scroll-left 25s linear infinite;
-   }
-   /* Move it (define the animation) */
-   @keyframes scroll-left {
-    0%   {
-    transform: translateX(100%); 		
-    }
-    100% {
-    transform: translateX(-100%); 
-    }
+height: 50px;	
+overflow: hidden;
+position: relative;
+background: #830051;
+color: #010c1f;
+border: 1px #010c1f;
+font-size: large;
 }
-     /* Media queries */
+.scroll-left p {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
 
+/* Starting position */
+transform:translateX(100%);
+
+/* Apply animation to this element */
+animation: scroll-left 25s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+0%   {
+transform: translateX(100%); 		
+}
+100% {
+transform: translateX(-100%); 
+}
+}
+
+/* Media queries */
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #welcome {
-        padding: 30px 0;
-
-    }
-
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
+#club-ethos {
+width: 65%;
+height: 1200px;
+margin: 0 auto;
+}
+#welcome {
+padding: 30px 0;
+}
+#left-about, #right-about {
+width: 100%;
+float: left;
+padding: 0;
+}
+#center-about {
+clear: both;
+width: 100%;
+float: left;
+padding: 0;
+}
+#times > div {
+width: 100%;
+clear: both;
+height: 150px;
+padding: 0;
+}
+hr {
+ display: none;
+}
 }
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
+#menu {
+clear: left;
+float: left;
+margin-left: 30px;
+margin-bottom: 20px;
+line-height: 25px;
+}
 }
 #cover-text {
     left: 0;
 }
-
 #club-ethos {
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
+width: 90%;
+height: 1200px;
+margin: 0 auto;
 }
-
 .left-about-heading, .right-about-heading {
-    width: inherit;
+width: inherit;
 }
-
 .left-about-heading h2, .right-about-heading h2 {
-    width: 100%;
-    text-align: center;
+width: 100%;
+text-align: center;
 }
-
 .left-about-heading p, .right-about-heading p {
-    text-align: center;
-    padding: 0 20px;
+text-align: center;
+padding: 0 20px;
 }
