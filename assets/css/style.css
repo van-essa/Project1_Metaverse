@@ -21,7 +21,7 @@ h2 {
     color: #830051;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -42,7 +42,7 @@ h2 {
 }
 
 #menu,
-#logo {
+.logo {
     line-height: 75px;
 }
 
@@ -402,11 +402,11 @@ footer {
 /* Media queries */
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    .navigation {
+    .navigation h1, ul{
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-end;
-    }
+      }
 
     #metaverse-lovers {
         width: 65%;
@@ -432,7 +432,12 @@ footer {
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-
+    .navigation h1, ul{
+        flex-direction: column;
+    }
+    .navigation li {
+        margin: 0.8em 0;
+      }
     #cover-text {
         left: 0;
     }
@@ -446,9 +451,12 @@ footer {
 
 /* For small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
-    .navigation {
+    .navigation h1, ul{
         flex-direction: column;
     }
+    .navigation li {
+        margin: 0.8em 0;
+      }
 
     .signup-form {
         margin: 150px 10% 0 0;
