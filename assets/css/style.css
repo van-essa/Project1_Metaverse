@@ -28,7 +28,7 @@ h2 {
 }
 
 /* navigation links */
-#menu {
+.menu {
     font-size: 110%;
     letter-spacing: 4px;
     position: fixed;
@@ -41,18 +41,18 @@ h2 {
     /* Full width */
 }
 
-#menu,
+.menu,
 .logo {
     line-height: 75px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
     display: block;
@@ -62,7 +62,7 @@ h2 {
 }
 
 /* Change background on mouse-over */
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #830051;
     background: #830051;
     color: #010c1f;
@@ -288,7 +288,7 @@ body {
 }
 
 .signup-form {
-    margin: 200px 30% 0;
+    margin: 20px 30% 0;
     color: #fff;
     background-color: #010c1f;
     max-width: 400px;
