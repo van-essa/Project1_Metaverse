@@ -455,7 +455,7 @@ footer {
         flex-direction: column;
     }
     .navigation li {
-        margin: 0.8em 0;
+        margin-left: 0.8em 0 -75em;
       }
 
     .signup-form {
