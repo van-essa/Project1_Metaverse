@@ -349,10 +349,12 @@ body {
 }
 
 /* Thank you image */
-#thankyou {
+.thankyou {
     height: 600px;
     width: 100%;
     background: no-repeat center center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* footer */
