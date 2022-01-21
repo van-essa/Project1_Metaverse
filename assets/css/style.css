@@ -61,18 +61,6 @@ h2 {
     text-decoration: none;
 }
 
-/* Allign nav and logo  */
-.container {
-    Display: flex;
-    align-items: center;
-}
-
-.container-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 /* Change background on mouse-over */
 #menu a:hover {
     border-bottom: 1px solid #830051;
@@ -414,7 +402,7 @@ footer {
 /* Media queries */
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    .container-nav {
+    .navigation {
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-end;
@@ -444,27 +432,6 @@ footer {
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    .container-nav {
-        justify-content: space-around;
-    }
-
-    #logo {
-        float: center;
-        font-size: 70%;
-        clear: center;
-    }
-
-    .container {
-        text-align: center;
-    }
-
-    #menu {
-        font-size: 90%;
-        clear: center;
-        float: center;
-        margin-bottom: auto;
-        line-height: 25px;
-    }
 
     #cover-text {
         left: 0;
@@ -479,22 +446,8 @@ footer {
 
 /* For small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
-    .container-nav {
+    .navigation {
         flex-direction: column;
-    }
-
-    #logo {
-        float: center;
-        font-size: 70%;
-        clear: center;
-    }
-
-    #menu {
-        font-size: 90%;
-        clear: center;
-        float: center;
-        margin-bottom: auto;
-        line-height: 25px;
     }
 
     .signup-form {
