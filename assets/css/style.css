@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Bellota+Text:wght@300&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: 'Bellota Text', cursive;
     font-weight: 300;
     color: #830051;
 }
@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 h1,
 h2 {
-    font-family: Lato, sans-serif;
+    font-family: 'Bellota Text', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #830051;
@@ -109,7 +109,7 @@ h2 {
 
 #cover-text {
     font-size: 130%;
-    font-family: Lato, sans-serif;
+    font-family: 'Bellota Text', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 300px;
@@ -153,7 +153,7 @@ hr {
 
 .center-about-heading p {
     font-size: 120%;
-    font-family: Lato, sans-serif;
+    font-family: 'Bellota Text', cursive;
     letter-spacing: 4px;
     width: 100%;
     line-height: 30px;
@@ -190,7 +190,7 @@ body {
     position: relative;
     vertical-align: top;
     margin: 10px;
-    font-family: Lato, sans-serif;
+    font-family: 'Bellota Text', cursive;
     min-height: 25vh;
     background: #010c1f;
     border: 1px solid #252727;
