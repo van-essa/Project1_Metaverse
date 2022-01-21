@@ -23,15 +23,21 @@ h2 {
 
 .logo {
     float: left;
-    font-size: 280%;
+    font-size: 150%;
     margin-left: 30px;
 }
 
 /* navigation links */
 .menu {
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0;
     font-size: 110%;
     letter-spacing: 4px;
-    position: fixed;
+    position: sticky;
     /* Set the navbar to fixed position */
     z-index: 9999;
     /* Position the navbar it the top of the content */
@@ -57,7 +63,7 @@ h2 {
     color: inherit;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1em;
     text-decoration: none;
 }
 
@@ -141,6 +147,7 @@ hr {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    height: 35px;
 }
 
 .center-about-heading {
@@ -162,7 +169,13 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
-
+.centering-img {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-left: 700px;
+    height: 360px;
+}  
 #welcome {
     text-align: center;
     margin: 20px 0;
@@ -339,7 +352,7 @@ body {
 #thankyou {
     height: 600px;
     width: 100%;
-    background: url('../images/thankyou.jpg') no-repeat center center;
+    background: no-repeat center center;
 }
 
 /* footer */
@@ -385,7 +398,7 @@ footer {
     transform: translateX(100%);
 
     /* Apply animation to this element */
-    animation: scroll-left 25s linear infinite;
+    animation: scroll-left 15s linear infinite;
 }
 
 /* Move it (define the animation) */
@@ -402,11 +415,6 @@ footer {
 /* Media queries */
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    .navigation h1, ul{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-end;
-      }
 
     #metaverse-lovers {
         width: 65%;
@@ -432,12 +440,10 @@ footer {
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    .navigation h1, ul{
-        flex-direction: column;
-    }
-    .navigation li {
-        margin: 0.8em 0;
+    .menu {
+        justify-content: space-around;
       }
+
     #cover-text {
         left: 0;
     }
@@ -451,12 +457,19 @@ footer {
 
 /* For small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
-    .navigation h1, ul{
-        flex-direction: column;
-    }
-    .navigation li {
-        margin-left: 0.8em 0 -75em;
-      }
+    .menu {
+        flex-flow: column wrap;
+    padding: 0;
+  }
+  .menu a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .menu li:last-of-type a {
+    border-bottom: none;
+  }
 
     .signup-form {
         margin: 150px 10% 0 0;
