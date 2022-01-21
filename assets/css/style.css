@@ -414,6 +414,11 @@ footer {
 /* Media queries */
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    .container-nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+    }
 
     #metaverse-lovers {
         width: 65%;
@@ -439,18 +444,18 @@ footer {
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-    
-    #logo {
-        float: center;
-    font-size: 70%;
-    clear: center;
-    }
-    .container {
-        text-align: center;
+    .container-nav {
+        justify-content: space-around;
     }
 
-    .container-nav {
-        flex-direction: column;
+    #logo {
+        float: center;
+        font-size: 70%;
+        clear: center;
+    }
+
+    .container {
+        text-align: center;
     }
 
     #menu {
@@ -474,11 +479,16 @@ footer {
 
 /* For small screen sizes from 800px wide and down */
 @media screen and (max-width: 800px) {
+    .container-nav {
+        flex-direction: column;
+    }
+
     #logo {
         float: center;
-    font-size: 70%;
-    clear: center;
+        font-size: 70%;
+        clear: center;
     }
+
     #menu {
         font-size: 90%;
         clear: center;
@@ -486,6 +496,7 @@ footer {
         margin-bottom: auto;
         line-height: 25px;
     }
+
     .signup-form {
         margin: 150px 10% 0 0;
         color: #fff;
