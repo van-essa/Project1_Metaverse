@@ -348,15 +348,6 @@ body {
     color: #830051;
 }
 
-/* Thank you image */
-.thankyou {
-    height: 600px;
-    width: 100%;
-    background: no-repeat center center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 /* footer */
 footer {
     height: 150px;
