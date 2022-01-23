@@ -47,17 +47,33 @@ The footer page will be visible at the end of each pagea and looks the same both
 4. future features what I would like to add in teh future
 Future features shall include a blog page, where a comments section will be availble so the vistiting user can express any questions, concerns or thoughts on the topic. 
 Future feauture shall incluse more immersive animation to engage th visting user and communicate the world of Metaverse with immersive videos.
+
 5. Typography and colour scheme add the font of the colours you used
-6. wireframes create wireframes * if I don’t have to ignore
+The Typography used on the site was Bellota Text Light 300 and was taked from Google Fonts: https://fonts.google.com/specimen/Bellota+Text?category=Display,Monospace
+The scheme of the colours used for the site is this:
+
 7. Technology git pod, HTML, CSS, skillset
+Thsi project was created in Git pod using HTML and CSS languages after studying the HTML and CSS essentials course with Code Institute.
+
 8. testing
    8.1 code validation
+   HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+
    8.2 test cases (user story-based with screenshots) steps with what happens when you don’t write the email address, what happens when you submit, write what happens if you don’t add your name, add both mobile and desktop screenshots
    8.3 fixed bugs what you fixed
    8.4 supported screens and browsers I used chrome simulator from mobile and desktop, mention also the screen-sized you tested. And mention that you used your own devices
 9. Deployment
    9.1 via gitpod mention what to do to open the website
    9.2 via GitHub pages mention what you did to put the website live
+   The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://van-essa.github.io/Project1_Metaverse/
+
 10. credits
 Image taken from here
 https://pixabay.com/photos/woman-headset-virtual-reality-vr-6882918/

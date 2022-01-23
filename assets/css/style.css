@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Bellota+Text:wght@300&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Bellota+Text:wght@300&family=Lato:ital,wght@1,300&display=swap');
 
 * {
     margin: 0;
@@ -293,7 +293,6 @@ body {
 
 /* Sign Up Form */
 .form-section {
-    padding-top: -50px;
     width: 100%;
     margin: auto;
     margin-left: auto;
