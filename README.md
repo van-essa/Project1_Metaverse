@@ -59,8 +59,8 @@ The footer page will be visible at the end of each page and look the same on a d
 ![](assets/ReadMeImages/Footersocialmedia.png)
 
 ## 3. Future features what would like to add in the future
-Future features shall include a blog page, where a comments section will be available to the visiting user and can express any questions, concerns or thoughts on the topic. 
-The future feature shall include more immersive animation to engage th visiting user and communicate the world of Metaverse with immersive videos.
+* Future features shall include a blog page, where a comments section will be available to the visiting user and can express any questions, concerns or thoughts on the topic. 
+* The future feature shall include more immersive animation to engage th visiting user and communicate the world of Metaverse with immersive videos.
 
 ## 4. Typography and colour scheme
 The Typography used on the site was Bellota Text Light 300 and was taken from [Google Fonts](https://fonts.google.com/specimen/Bellota+Text?category=Display,Monospace)
