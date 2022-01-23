@@ -95,8 +95,9 @@ It is tested by filling the Newsletter form, ensuring that the required informat
 The Newsletter form requires the Full Name of the Visiting User and the email address. If the visiting users do not share this information, then the visiting user can not subscribe.
 Testing filling the form in both Desktop and Mobile this is what happens:
    - When the visiting user does not fill in their name
-   Desktop
    
+   Desktop
+
    ![]([images/ReadMeImages/Notfillingname_Desktop.png)
 
    Mobile
@@ -104,6 +105,7 @@ Testing filling the form in both Desktop and Mobile this is what happens:
    ![](assets/ReadMeImages/MobileName.PNG)
 
    - When the visiting user does not fill in their surname
+   
    Desktop
 
    ![](images/ReadMeImages/notfillingSurname_Desktop.png)
@@ -113,6 +115,7 @@ Testing filling the form in both Desktop and Mobile this is what happens:
    ![](images/ReadMeImages/MobileSurname.PNG)
 
    - When the visiting user does not fill in their email address
+   
    Desktop
 
    ![](images/ReadMeImages/fillinEmail_Desktop.png)
@@ -122,6 +125,7 @@ Testing filling the form in both Desktop and Mobile this is what happens:
    ![](images/ReadMeImages/MobileEmail.PNG)
 
    - When the visiting user fills in all required information
+   
    Desktop
 
    ![](images/ReadMeImages/thankyou_Desktop.png)
