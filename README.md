@@ -63,7 +63,7 @@ Future features shall include a blog page, where a comments section will be avai
 The future feature shall include more immersive animation to engage th visiting user and communicate the world of Metaverse with immersive videos.
 
 ## 4. Typography and colour scheme
-The Typography used on the site was Bellota Text Light 300 and was taken from Google Fonts: https://fonts.google.com/specimen/Bellota+Text?category=Display,Monospace
+The Typography used on the site was Bellota Text Light 300 and was taken from [Google Fonts](https://fonts.google.com/specimen/Bellota+Text?category=Display,Monospace)
 The scheme of the colours used for the site is this:
 !(ColourPallete)[images/ReadMeImages/colourpallete.png]
 
@@ -73,8 +73,7 @@ After studying the HTML and CSS essentials course with Code Institute, this proj
 ## 6. Testing
 **Code validation**
 **_HTML_**
-Two errors were returned when passing through the official [W3C validator ][reference text]
-[reference text]: https://validator.w3.org/nu/?doc=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F
+Two errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F)
 
 !(HTTML_Error)[images/ReadMeImages/HTMLChecker.png]
 
@@ -85,8 +84,7 @@ _Error 2_
 This Error looked so strange due to misunderstanding the bug. The code was rewritten, checking online any similar issues, checking spelling mistakes, but no answer seemed to be valuable for this bug. The code was not removed since the fontawesome script had to be mentioned in the code.
 
 **_CSS_**
-No errors were found when passing through the official [(Jigsaw) validator ][reference text]
-[reference text]: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en but 5 
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 !(CSS_Warning)[images/ReadMeImages/CSSWarnings.png]
 
@@ -95,29 +93,33 @@ After checking online what the problem is and what this warning wants to communi
 ## 7.Test cases
 It is tested by filling the Newsletter form, ensuring that the required information is filled and the message pops up if it is not filled in.
 The Newsletter form requires the Full Name of the Visiting User and the email address. If the visiting users do not share this information, then the visiting user can not subscribe.
+
+![](assets/ReadMeImages/MobileName.PNG)
+
+
 Testing filling the form in both Desktop and Mobile this is what happens:
-   -When the visiting user does not fill in their name
+   - When the visiting user does not fill in their name
    Desktop
-   !(Name)[images/ReadMeImages/MobileName.PNG]
+   
 
    Mobile
    !(NameMobile)[images/ReadMeImages/Notfillingname_Desktop.png]
 
-   -When the visiting user does not fill in their surname
+   - When the visiting user does not fill in their surname
    Desktop
    !(SurName)[images/ReadMeImages/notfillingSurname_Desktop.png]
    
    Mobile
    !(SurNameMobile)[images/ReadMeImages/MobileSurname.PNG]
 
-   -When the visiting user does not fill in their email address
+   - When the visiting user does not fill in their email address
    Desktop
    !(Email)[images/ReadMeImages/fillinEmail_Desktop.png]
    
    Mobile
    !(emailMobile)[images/ReadMeImages/MobileEmail.PNG]
 
-   -When the visiting user fills in all required information
+   - When the visiting user fills in all required information
    Desktop
    !(thankyoudesktop)[images/ReadMeImages/thankyou_Desktop.png]
    
@@ -151,8 +153,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ## 11. Credits
 
 **Content**
-* The text for the Home page was taken from [Virtual Speach Article][reference text]
-[reference text]: https://virtualspeech.com/blog/vr-applications
+* The text for the Home page was taken from [Virtual Speach Article](https://virtualspeech.com/blog/vr-applications)
 * The scroll left feature on Follow Us on Social Media was taken from this [Open Code Source][reference text]
 [reference text]: https://www.html.am/html-codes/marquees/html-scrolling-text.cfm
 * The Metaverse list was inspired and used the code from this other [Open Code Source][reference text]
