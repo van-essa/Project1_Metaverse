@@ -57,8 +57,8 @@ After studying the HTML and CSS essentials course with Code Institute, this proj
 ## 6. Testing
 **Code validation**
 **_HTML_**
-Two errors were returned when passing through the official W3C validator https://validator.w3.org/nu/?doc=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F
-![Error_1](https://myoctocat.com/assets/ReadMeImages/HTML Checker.png)     
+Two errors were returned when passing through the official [W3C validator ][reference text]
+[reference text]: https://validator.w3.org/nu/?doc=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F   
 
 When coding the subject list on the Home Page, being featured in the same line was not the aim, rather than having points 1-3 to the first row and 4-5 to the second row. The only way it could be achieved was by adding the <br> element between them. Hence this bug was not fixed due to difficulties finding another way.
 
@@ -71,7 +71,8 @@ wesome-->↩<script src="https://kit.fontawesome.com/5712c7d5d7.js" crossorigin=
 
 This Error looked so strange due to misunderstanding the bug. The code was rewritten, checking online any similar issues, checking spelling mistakes, but no answer seemed to be valuable for this bug. The code was not removed since the fontawesome script had to be mentioned in the code.
 CSS
-No errors were found when passing through the official (Jigsaw) validator, but 5 Warnings were pointed: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+No errors were found when passing through the official [(Jigsaw) validator ][reference text]
+[reference text]: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en but 5 Warnings were pointed: 
 
 266      -webkit-linear-gradient(to right,#FFAFBD,#C9FFBF) is a vendor extension
 272      -webkit-linear-gradient(to right,#ff9472,#f2709c) is a vendor extension
@@ -81,7 +82,7 @@ No errors were found when passing through the official (Jigsaw) validator, but 5
 
 After checking online what the problem is and what this warning wants to communicate, the outcome was that the style sheet code did not respect the syntax of CSS and that there is nothing to do about this since those errors will help support browser compatibility efforts. Hence, the code is still there since the eye-catching list on Home Page would not be visible otherwise.
 
-7.Test cases
+## 7.Test cases
 It is tested by filling the Newsletter form, ensuring that the required information is filled and the message pops up if it is not filled in.
 The Newsletter form requires the Full Name of the Visiting User and the email address. If the visiting users do not share this information, then the visiting user can not subscribe.
 Testing filling the form in both Desktop and Mobile this is what happens:
@@ -90,10 +91,10 @@ Testing filling the form in both Desktop and Mobile this is what happens:
    -When the visiting user does not fill in their email address
    -When the visiting user fills in all required information
 
-8.Unfixed Bugs
+## 8.Unfixed Bugs
 The Unfixed bugs are Error 1 and Error 2 mentioned in teh code validation.
    
-9.Supported screens and browsers 
+## 9.Supported screens and browsers 
 The Chrome simulator was used from my mobile and desktop devices.
 It was tested in Chrome simulator for both Mobile and Desktop
 It was tested in Microsoft Edge simulator for Desktop
@@ -101,29 +102,35 @@ It was tested in Safari simulator for mobile
 The screen size on mobile was on iPhone 11 Pro, namely 5.8 inches, 84.4 cm2 (~82.1% screen-to-body ratio)
 The screen size on the Desktop was 2560x1440.
 
-10.Deployment
+##10.Deployment
 The site was opened via Gitpud to check its process. The step to open that site is as follows:
-Go to terminal 
-Git command: python3 -m http.server
-A pop-up message will appear on the right-hand side where Open Browser should be clicked.
-A new page opens where the site is available.
+* Go to terminal 
+* Git command: python3 -m http.server
+* A pop-up message will appear on the right-hand side where Open Browser should be clicked.
+* A new page opens where the site is available.
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://van-essa.github.io/Project1_Metaverse/
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* The live link can be found here: https://van-essa.github.io/Project1_Metaverse/
 
-11. Credits
+## 11. Credits
 
-Content
-The text for the Home page was taken from Virtual Speach Article https://virtualspeech.com/blog/vr-applications
-The scroll left feature on Follow Us on Social Media was taken from this open Code source https://www.html.am/html-codes/marquees/html-scrolling-text.cfm
-The Metaverse list was inspired and used the code from this other open code source https://codepen.io/vikassingh1111/pen/xBPmbL
-The icons in the footer were taken from Font Awesome
-Instructions on how to implement the HTML and CSS code using GitHub was taken from the HTML and CSS course from Code Institute
+**Content**
+* The text for the Home page was taken from [Virtual Speach Article][reference text]
+[reference text]: https://virtualspeech.com/blog/vr-applications
+* The scroll left feature on Follow Us on Social Media was taken from this [Open Code Source][reference text]
+[reference text]: https://www.html.am/html-codes/marquees/html-scrolling-text.cfm
+* The Metaverse list was inspired and used the code from this other [Open Code Source][reference text]
+[reference text]: https://codepen.io/vikassingh1111/pen/xBPmbL
+* The icons in the footer were taken from Font Awesome
+* Instructions on how to implement the HTML and CSS code using GitHub was taken from the HTML and CSS course from Code Institute
 
-Media
-The same photo used on the Home, About Us and Sign Up page are from This Open Source site https://pixabay.com/photos/woman-headset-virtual-reality-vr-6882918/
-The image used on the About Us page was taken from this other open source Content creation site https://www.canva.com/
-The video used on the Thank You page was taken from this other open source Content creation site https://www.canva.com/
+**Media**
+* The same photo used on the Home, About Us and Sign Up page are from This [Open Code Source Site][reference text]
+[reference text]: https://pixabay.com/photos/woman-headset-virtual-reality-vr-6882918/
+* The image used on the About Us page was taken from this other open [Content Creation Source Site][reference text]
+[reference text]: https://www.canva.com/
+* The video used on the Thank You page was taken from this other open [Content Creation Source Site][reference text]
+[reference text]: https://www.canva.com/
