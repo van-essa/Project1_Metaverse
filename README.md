@@ -133,7 +133,7 @@ The Unfixed bugs are Error 1 and Error 2 mentioned in teh code validation.
 - The screen size on mobile was on iPhone 11 Pro, namely 5.8 inches, 84.4 cm2 (~82.1% screen-to-body ratio)
 - The screen size on the Desktop was 2560x1440.
 
-##10.Deployment
+## 10.Deployment
 The site was opened via Gitpud to check its process. The step to open that site is as follows:
 * Go to terminal 
 * Git command: python3 -m http.server
