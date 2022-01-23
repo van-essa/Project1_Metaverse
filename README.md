@@ -58,27 +58,21 @@ After studying the HTML and CSS essentials course with Code Institute, this proj
 **Code validation**
 **_HTML_**
 Two errors were returned when passing through the official [W3C validator ][reference text]
-[reference text]: https://validator.w3.org/nu/?doc=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F   
+[reference text]: https://validator.w3.org/nu/?doc=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F
 
+!(HTTML_Error)[images/ReadMeImages/HTMLChecker.png]
+
+_Error 1_
 When coding the subject list on the Home Page, being featured in the same line was not the aim, rather than having points 1-3 to the first row and 4-5 to the second row. The only way it could be achieved was by adding the <br> element between them. Hence this bug was not fixed due to difficulties finding another way.
 
-Error nr.2:
- Stray start tag script.
-
-From line 121, column 1; to line 121, column 80
-
-wesome-->↩<script src="https://kit.fontawesome.com/5712c7d5d7.js" crossorigin="anonymous"></scri
-
+_Error 2_
 This Error looked so strange due to misunderstanding the bug. The code was rewritten, checking online any similar issues, checking spelling mistakes, but no answer seemed to be valuable for this bug. The code was not removed since the fontawesome script had to be mentioned in the code.
-CSS
-No errors were found when passing through the official [(Jigsaw) validator ][reference text]
-[reference text]: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en but 5 Warnings were pointed: 
 
-266      -webkit-linear-gradient(to right,#FFAFBD,#C9FFBF) is a vendor extension
-272      -webkit-linear-gradient(to right,#ff9472,#f2709c) is a vendor extension
-278      -webkit-linear-gradient(to right,#ffc500,#c21500) is a vendor extension
-284      -webkit-linear-gradient(to right,#0ABFBC,#FC354C) is a vendor extension
-290      -webkit-linear-gradient(to right,#FFAFBD,#C9FFBF) is a vendor extension
+**_CSS_**
+No errors were found when passing through the official [(Jigsaw) validator ][reference text]
+[reference text]: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en but 5 
+
+!(CSS_Warning)[images/ReadMeImages/CSSWarnings.png]
 
 After checking online what the problem is and what this warning wants to communicate, the outcome was that the style sheet code did not respect the syntax of CSS and that there is nothing to do about this since those errors will help support browser compatibility efforts. Hence, the code is still there since the eye-catching list on Home Page would not be visible otherwise.
 
