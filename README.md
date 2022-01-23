@@ -90,42 +90,42 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 After checking online what the problem is and what this warning wants to communicate, the outcome was that the style sheet code did not respect the syntax of CSS and that there is nothing to do about this since those errors will help support browser compatibility efforts. Hence, the code is still there since the eye-catching list on Home Page would not be visible otherwise.
 
-## 7.Test cases
+## 7. Test cases
 It is tested by filling the Newsletter form, ensuring that the required information is filled and the message pops up if it is not filled in.
 The Newsletter form requires the Full Name of the Visiting User and the email address. If the visiting users do not share this information, then the visiting user can not subscribe.
 Testing filling the form in both Desktop and Mobile this is what happens:
    - When the visiting user does not fill in their name
    Desktop
-   ![]([images/ReadMeImages/Notfillingname_Desktop.png)
+   * ![]([images/ReadMeImages/Notfillingname_Desktop.png)
 
    Mobile
-   ![](assets/ReadMeImages/MobileName.PNG)
+   * ![](assets/ReadMeImages/MobileName.PNG)
 
    - When the visiting user does not fill in their surname
    Desktop
-   ![](images/ReadMeImages/notfillingSurname_Desktop.png)
+   * ![](images/ReadMeImages/notfillingSurname_Desktop.png)
    
    Mobile
-   ![](images/ReadMeImages/MobileSurname.PNG)
+   * ![](images/ReadMeImages/MobileSurname.PNG)
 
    - When the visiting user does not fill in their email address
    Desktop
-   ![](images/ReadMeImages/fillinEmail_Desktop.png)
+   * ![](images/ReadMeImages/fillinEmail_Desktop.png)
    
    Mobile
-   ![](images/ReadMeImages/MobileEmail.PNG)
+   * ![](images/ReadMeImages/MobileEmail.PNG)
 
    - When the visiting user fills in all required information
    Desktop
-   ![](images/ReadMeImages/thankyou_Desktop.png)
+   * ![](images/ReadMeImages/thankyou_Desktop.png)
    
    Mobile
-   ![](images/ReadMeImages/MobileThankYou.PNG)
+   * ![](images/ReadMeImages/MobileThankYou.PNG)
 
-## 8.Unfixed Bugs
+## 8. Unfixed Bugs
 The Unfixed bugs are Error 1 and Error 2 mentioned in teh code validation.
    
-## 9.Supported screens and browsers 
+## 9. Supported screens and browsers 
 - The Chrome simulator was used from my mobile and desktop devices.
 - It was tested in Chrome simulator for both Mobile and Desktop
 - It was tested in Microsoft Edge simulator for Desktop
@@ -133,7 +133,7 @@ The Unfixed bugs are Error 1 and Error 2 mentioned in teh code validation.
 - The screen size on mobile was on iPhone 11 Pro, namely 5.8 inches, 84.4 cm2 (~82.1% screen-to-body ratio)
 - The screen size on the Desktop was 2560x1440.
 
-## 10.Deployment
+## 10. Deployment
 The site was opened via Gitpud to check its process. The step to open that site is as follows:
 * Go to terminal 
 * Git command: python3 -m http.server
