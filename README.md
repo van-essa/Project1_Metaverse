@@ -65,6 +65,7 @@ The future feature shall include more immersive animation to engage th visiting 
 ## 4. Typography and colour scheme
 The Typography used on the site was Bellota Text Light 300 and was taken from Google Fonts: https://fonts.google.com/specimen/Bellota+Text?category=Display,Monospace
 The scheme of the colours used for the site is this:
+!(ColourPallete)[images/ReadMeImages/colourpallete.png]
 
 ## 5. Technology
 After studying the HTML and CSS essentials course with Code Institute, this project was created in Git pod using HTML and CSS languages.
@@ -96,20 +97,43 @@ It is tested by filling the Newsletter form, ensuring that the required informat
 The Newsletter form requires the Full Name of the Visiting User and the email address. If the visiting users do not share this information, then the visiting user can not subscribe.
 Testing filling the form in both Desktop and Mobile this is what happens:
    -When the visiting user does not fill in their name
+   Desktop
+   !(Name)[images/ReadMeImages/MobileName.PNG]
+
+   Mobile
+   !(NameMobile)[images/ReadMeImages/Notfillingname_Desktop.png]
+
    -When the visiting user does not fill in their surname
+   Desktop
+   !(SurName)[images/ReadMeImages/notfillingSurname_Desktop.png]
+   
+   Mobile
+   !(SurNameMobile)[images/ReadMeImages/MobileSurname.PNG]
+
    -When the visiting user does not fill in their email address
+   Desktop
+   !(Email)[images/ReadMeImages/fillinEmail_Desktop.png]
+   
+   Mobile
+   !(emailMobile)[images/ReadMeImages/MobileEmail.PNG]
+
    -When the visiting user fills in all required information
+   Desktop
+   !(thankyoudesktop)[images/ReadMeImages/thankyou_Desktop.png]
+   
+   Mobile
+   !(thankyouMobile)[images/ReadMeImages/MobileThankYou.PNG]
 
 ## 8.Unfixed Bugs
 The Unfixed bugs are Error 1 and Error 2 mentioned in teh code validation.
    
 ## 9.Supported screens and browsers 
-The Chrome simulator was used from my mobile and desktop devices.
-It was tested in Chrome simulator for both Mobile and Desktop
-It was tested in Microsoft Edge simulator for Desktop
-It was tested in Safari simulator for mobile 
-The screen size on mobile was on iPhone 11 Pro, namely 5.8 inches, 84.4 cm2 (~82.1% screen-to-body ratio)
-The screen size on the Desktop was 2560x1440.
+- The Chrome simulator was used from my mobile and desktop devices.
+- It was tested in Chrome simulator for both Mobile and Desktop
+- It was tested in Microsoft Edge simulator for Desktop
+- It was tested in Safari simulator for mobile 
+- The screen size on mobile was on iPhone 11 Pro, namely 5.8 inches, 84.4 cm2 (~82.1% screen-to-body ratio)
+- The screen size on the Desktop was 2560x1440.
 
 ##10.Deployment
 The site was opened via Gitpud to check its process. The step to open that site is as follows:
