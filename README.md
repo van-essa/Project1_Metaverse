@@ -96,31 +96,39 @@ The Newsletter form requires the Full Name of the Visiting User and the email ad
 Testing filling the form in both Desktop and Mobile this is what happens:
    - When the visiting user does not fill in their name
    Desktop
-   * ![]([images/ReadMeImages/Notfillingname_Desktop.png)
+   
+   ![]([images/ReadMeImages/Notfillingname_Desktop.png)
 
    Mobile
-   * ![](assets/ReadMeImages/MobileName.PNG)
+
+   ![](assets/ReadMeImages/MobileName.PNG)
 
    - When the visiting user does not fill in their surname
    Desktop
-   * ![](images/ReadMeImages/notfillingSurname_Desktop.png)
+
+   ![](images/ReadMeImages/notfillingSurname_Desktop.png)
    
    Mobile
-   * ![](images/ReadMeImages/MobileSurname.PNG)
+
+   ![](images/ReadMeImages/MobileSurname.PNG)
 
    - When the visiting user does not fill in their email address
    Desktop
-   * ![](images/ReadMeImages/fillinEmail_Desktop.png)
+
+   ![](images/ReadMeImages/fillinEmail_Desktop.png)
    
    Mobile
-   * ![](images/ReadMeImages/MobileEmail.PNG)
+
+   ![](images/ReadMeImages/MobileEmail.PNG)
 
    - When the visiting user fills in all required information
    Desktop
-   * ![](images/ReadMeImages/thankyou_Desktop.png)
+
+   ![](images/ReadMeImages/thankyou_Desktop.png)
    
    Mobile
-   * ![](images/ReadMeImages/MobileThankYou.PNG)
+
+   ![](images/ReadMeImages/MobileThankYou.PNG)
 
 ## 8. Unfixed Bugs
 The Unfixed bugs are Error 1 and Error 2 mentioned in teh code validation.
